@@ -1,0 +1,28 @@
+{
+    "SOURCE_JSON": "./10sept26_coldbox1/filtered_summary.json",
+    "BASE_OUT_DIR": "./10sept26_coldbox1/Thermal_analysis",
+    "FILTERING": {
+        "trim_start": 2,
+        "trim_end": -4,
+        "min_seq_length": 6,
+        "min_temp_swing": 20
+    },
+    "CHUCKS": {
+        "CH1": {
+            "daq_stream": [0, 1, 2, 32, 33, 34],
+            "marker": "o"
+        },
+        "CH2": {
+            "daq_stream": [8, 9, 10],
+            "marker": "s"
+        },
+        "CH3": {
+            "daq_stream": [16, 17, 18],
+            "marker": "^"
+        },
+        "CH4": {
+            "daq_stream": [24, 25, 26],
+            "marker": "D"
+        }
+    }
+}

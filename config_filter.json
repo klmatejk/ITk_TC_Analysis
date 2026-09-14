@@ -1,0 +1,16 @@
+{
+    "SOURCE_DIR": "./10sept26_coldbox1/merged_results",
+    "ISOLATION_DIR": "./10sept26_coldbox1/AMAC_files",
+    "KEYWORD": "AMAC",
+    "GLUE_JSON": "glue_thickness_summary.json",
+    "OUTPUT_JSON": "./10sept26_coldbox1/filtered_summary.json",
+    
+    "USE_HALFMODULE_MAPPING": true,
+    "SIDE_PREFIX": "4",
+    
+    "VALIDATION": {
+        "ntc_array_length": 24,
+        "min_temp": -55,
+        "max_temp": 55
+    }
+}
